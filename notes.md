@@ -58,3 +58,43 @@
 * CodePipeline - Continuous delivery service
 * X-Ray - Debug and analyze tool
 * Cloud9 - IDE environment for AWS
+
+### Management Tools 
+* CloudWatch
+* CloudFormation
+* CloudTrail
+* Config
+* OpsWorks
+* Service Catalog
+* Systems Manager
+* Trusted Advisor
+* Managed Services 
+
+### Media Services
+* Elastic Transcoder
+* MediaConvert
+* MediaLive
+* MediaPackage
+* MediaStore
+* MediaTailor
+
+### Machine Learning
+* SageMaker
+* Comprehend
+* DeepLens
+* Lex
+* Machine Learning
+* Polly
+* Rekognition
+* Amazon Translate
+
+### Analytics
+* Athena 
+* EMR
+* CloudSearch
+* ElasticSearch Service
+* Kinesis
+* Kinesis Video Streams
+* QuickSight
+* Data Pipeline
+* Glue
