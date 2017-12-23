@@ -1,6 +1,6 @@
 ## 10,000 ft Overview
 
-### Compute
+### **Compute**
 * EC2 - Elastic Compute Cloud
     * Virtual machines inside AWS platform
 * EC2 Container Service - Run & Manage Docker Containers at scale
@@ -12,7 +12,7 @@
     * Watered down version of EC2
 * Batch - Used for batch computing in the cloud
 
-### Storage
+### **Storage**
 * S3 - Simple Storage Service
     * Buckets that you can upload files to
 * EFS - Elastic File System
@@ -22,11 +22,11 @@
 * Storage Gateway - Virtual Appliances
     * Replicate information back to S3
 
-### Databases
+### **Databases**
 * RDS - Relation Database Service
     * MySQL, PostgreSQL, etc
 * Elsaticache - Caching service commonly queried things from you database
-* DynamoDB - Non relational databases
+* **DynamoDB** - Non relational databases
 * Red Shift - Data Warehousing
 
 ### Migration
@@ -38,7 +38,7 @@
 * Server Migration Service - Similar to db migration service
 * Snowball - In between storage and migration for large amounts of data to the cloud
 
-### Networking & Content Delivery
+### **Networking & Content Delivery**
 * VPC - Virtual Data Center
     * This where you configure a lot of things
     * Very important to understand for the exam
@@ -59,7 +59,7 @@
 * X-Ray - Debug and analyze tool
 * Cloud9 - IDE environment for AWS
 
-### Management Tools 
+### **Management Tools**
 * CloudWatch - Monitoring Service
     * SysOps exam
 * CloudFormation - Solutions Architect
@@ -98,7 +98,7 @@
 * Amazon Translate - Just like google translate
 * Amazon Transcribe - Auto speech recognition from vid files and mp3s
 
-### Analytics
+### **Analytics**
 * Athena - Lets you run SQL Queries against things in your S3 bucket
     * Serverless
 * EMR - Elastic MapReduce
@@ -111,7 +111,7 @@
 * Data Pipeline - Lets you move data between different AWS Services
 * Glue - Used to extract, transform, and load data into the format you want
 
-### Security & Identity & Compliance
+### **Security & Identity & Compliance**
 * IAM - Identity access management
 * Cognito - Device Authentication for mobile apps
 * GuardDuty - Monitors for malicious activity on your AWS acct
@@ -137,7 +137,7 @@
 ### AR & VR
 * Sumerian - Lets you use a common set of tools for AR, VR, & 3D apps
 
-### Application Integration
+### **Application Integration**
 * Step Functions - Lets you manage your different lambda functions
 * Amazon MQ - Message Queues
 * SNS - Notifications Service
@@ -169,3 +169,17 @@
 
 ### Game Dev
 * GameLift - Service for developing games
+
+## Identitiy Access Management 101
+- Allows you to manage users and their level of access to the AWS console
+
+### What does IAM give you?
+* Centralized control of your AWS Account
+* Shared access to your AWS Account
+* Granular Permissions
+* Identity Federation (including ActiveDirectory, Facebook, LinkedIn, etc)
+* Multifactor Authentication
+* Provides temporary access for users/devices and services where necessary
+* Allows you to set up your own password rotation policy
+* Integrates with many other AWS services
+* Support PCI DSS Compliance
