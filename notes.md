@@ -183,3 +183,9 @@
 * Allows you to set up your own password rotation policy
 * Integrates with many other AWS services
 * Support PCI DSS Compliance
+
+### Critical Terms
+* Users - end users
+* Groups - A collection of users under one set of permissions
+* Roles - You create roles and can then assign them to AWS
+* Policies - Document that defines one or more permissions
