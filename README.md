@@ -2,4 +2,4 @@
 
 [10,000 ft Overview](overview.md)
 
-[Security Token Service(STS)](sts.md)
+[Identity Access Management](IAM/IAM_overview.md)

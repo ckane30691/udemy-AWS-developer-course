@@ -18,6 +18,7 @@
 * Roles - You create roles and can then assign them to AWS
 * Policies - Document that defines one or more permissions
 
+# [STS](sts.md)
 
 ## ActiveDirectory Federation
 
